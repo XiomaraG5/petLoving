@@ -19,16 +19,26 @@
 
 ## Relevant code
   
- * Promises axios:
-          -. ```
-             data={
-                name:name?name:item.name,
-                age:age?age:item.age,
-                specie:specie?specie:item.specie,
-                image:image?image:item.image,
-            }
-            await axios.put(Url+'/'+item._id,data)
-          ```
+ - Promises axios
+
+```
+ // Get:
+          const datos = await axios.get(Url)
+  ```   
+  
+  ```
+ // Post:
+          const values = await axios.post(Url,formValue)
+  ```    
+       // Put:
+          data={
+             name:name?name:item.name,
+             age:age?age:item.age,
+             specie:specie?specie:item.specie,
+             image:image?image:item.image,
+         }
+         await axios.put(Url+'/'+item._id,data)
+         
   
  * Hook:
  
