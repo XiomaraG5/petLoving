@@ -1,0 +1,31 @@
+/*--------------------------------------------- PET CARDS ------------------------------------------------------*/
+.cards{
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px #ccc;
+}
+.cards .description{
+    background-color: var(--secondaryColor);
+    color: var(--backgroundColor);
+    border-radius: 5px;
+}
+.iconsCards{
+    position: absolute;
+    bottom:10px;
+    left: 15px;
+}
+ .iconTrash, .iconConfi{
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 10%;
+    box-shadow: -1px -1px 2px #222 ;
+}
+
+.iconConfi:hover,.iconTrash:hover{
+    color: var(--tertiaryColor);
+}
+.imgModal{
+    margin: auto;
+    border-radius: 100%;
+}

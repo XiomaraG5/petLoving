@@ -1,0 +1,40 @@
+/*--------------------------------------------- HEADER ------------------------------------------------------*/
+
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 1%;
+    flex-direction: column;
+}
+.contentTitle{
+    background-image: url('../assests/circle.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    align-items: center;
+    flex-basis: 60%;
+
+}
+
+.title{
+    color: var(--backgroundColor);
+    width: 100%;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    height: 135px;
+    font-size: 30px;
+    padding-top: 10%;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.headerImg{
+    height: 150px;
+}
+.headerImg_img{
+    width: 100%;
+    height: 155px;
+    object-fit: contain;
+}

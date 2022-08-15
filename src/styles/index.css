@@ -1,0 +1,27 @@
+
+/*--------------------------------------------- STYLES PAGES ------------------------------------------------------*/
+@import url('./header.css');
+@import url('./landing.css');
+@import url('./querys.css');
+@import url('./blockCards.css');
+/*--------------------------------------------- FONTS ------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&display=swap');
+
+/*--------------------------------------------- VARIABLES ------------------------------------------------------*/
+:root {
+    --primaryColor: #E28542;
+    --backgroundColor: #F6FBFE;
+    --secondaryColor: #323E40;
+    --tertiaryColor: #BF8756;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#root{
+    margin: auto;
+    max-width: 1400px;
+    min-height: 100vh;
+    background-color: var(--backgroundColor);
+}

@@ -1,0 +1,31 @@
+@media (min-width:315px) {
+    .title{
+        height: 170px;  
+    }
+}
+@media (min-width:420px) {
+    .title {
+        height: 250px;
+    }
+   
+}
+@media (min-width:540px) {
+    .header {
+            flex-direction: row-reverse;
+    }
+    .contentTitle {
+        background-image: url('../assests/bigCircle.png');
+    }
+    .title {
+        height: 150px;
+    } 
+    .contentCards .cards {
+        width: 45%;
+    }
+}
+
+@media (min-width:1100px){
+    .wrapperCards .contentCards .cards {
+            width: 30%;
+        }
+}
