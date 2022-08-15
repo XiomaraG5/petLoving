@@ -19,7 +19,7 @@
 
 ## Relevant code
   
- - Promises axios
+ - Peticiones con axios
 
 ```
  // Get:
